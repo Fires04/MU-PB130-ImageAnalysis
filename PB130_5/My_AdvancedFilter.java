@@ -30,7 +30,7 @@ public class My_AdvancedFilter implements PlugInFilter {
         int width = ip.getWidth();
         int height = ip.getHeight();
         int radius = 1;
-        int repeats = 4;
+        int repeats = 4; //default 4
 
         for (int i = 0; i < repeats; i++) {
             ImageProcessor tmp = ip.duplicate();
